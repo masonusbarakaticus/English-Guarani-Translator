@@ -11,7 +11,7 @@ transformers: 3.5.1,
 evaluate: 0.4.3, 
 datasets: 3.5.1
 
-#BERT→GPT-2 (Ben Horlbeck)
+# BERT→GPT-2 (Ben Horlbeck)
 This model has a unique straggly where we coming the Bert encoder and the get-2 as a decoder suing the hugging face tools we have. More specifically we used the Encoder Decoder Model. Both of the components are pretreated on the more general aspects of text. That being said, the translation task English to Guarani was trained from scratch out of the 10,000 sentence pairings we used in the project. This ended with us creating a special tokenizer that was using Berts input as the rule and then we then kind force the gpt 2 token to act the same way. The model overall performed poorly which was expected and had a Chrf++ score of 11.38. This is good however for the experiential nature of these model and it was really to see what we could do with a low resource translation without task knowledge from the past.
 
 # NLLB (Ray Scherer)
