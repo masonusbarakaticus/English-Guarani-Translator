@@ -1,4 +1,4 @@
-# English-Guarani-Translator
+# English-Guarani-Translators
 Low-Resource Data-Driven Transformer Analyses
 
 # Necessary Files
