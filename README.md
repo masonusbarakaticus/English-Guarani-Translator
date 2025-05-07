@@ -26,3 +26,11 @@ Requires the following packages:
 datasets: 3.5.1  
 deep-translator: 1.11.4   
 sacrebleu: 2.5.1  
+
+# mBART-50 (Jake Burton)
+multilingual BART-50 is the latest version of Facebook's mBART, which is built to include even more languages and hidden layers. It is pretrained on a large multilingual corpus, and each language has its own tag in the form of <en_XX> (english). Because it wasn't trained on single direction language to language translation it is fluid to translate one language to another without needing to be specifically trained on that scenario. This was edited to include the Guarani language, using the tag <gn_XX>. It is fine tuned on this language using the NLLB gn and en corpus. The accuracy is tested via ChrF++ once the model is complete. mBART uses built in translation functions. Areas have been included in the file to test out this translation function and ensure the model was successful. 
+Requires the following packages:  
+transformers[sentencepiece]: 4.51.3  
+datasets: 3.5.1  
+evaluate: 0.4.3  
+
