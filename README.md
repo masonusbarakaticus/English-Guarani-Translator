@@ -1,12 +1,6 @@
 # English-Guarani-Translator
 Low-Resource Data-Driven Transformer Analyses
 
-# Neccesary Files for bert-gpt
-In order to run the file within bert-gpt folder you must download the folder located at "https://drive.google.com/drive/folders/1sZ76dshqF9CHAGL6L6k_0KrxYkqBI2k3?usp=sharing" and place it in the bert-gpt folder
-
-# Necessary Files for NLLB_2
-To run the file, you will need to download the folder datafiles at the drive: 
-
 # Necessary Files
 To run and successfully train all the models, you need to download "NLLB.en-gn.gn", "NLLB.en-gn.en", "grn_Latn.devtest", and "eng_Latn.devtest" from "https://drive.google.com/drive/folders/1sZ76dshqF9CHAGL6L6k_0KrxYkqBI2k3?usp=sharing" and place them in the same directory as whatever model you are running.
 
